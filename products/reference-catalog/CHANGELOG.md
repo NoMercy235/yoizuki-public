@@ -1,5 +1,21 @@
 # Changelog
 
+## 1.1.0 — 2026-09-01
+
+- Added a compact vertical slider beside each board canvas for centered canvas
+  zoom from 25% to 400%, with 100% at the midpoint and a 1:1 reset button.
+- Canvas zoom is independent of individual reference transforms. Existing wheel,
+  resize, rotate, fit, reset, sampling and ordering behavior remains unchanged.
+- Canvas zoom is a transient viewing aid, so it does not alter reference history,
+  dirty a document or change the saved-data schema. Existing `.kra` files remain
+  compatible and reopened boards start at 100%.
+- Selection handles and their hit areas retain a consistent screen size while the
+  canvas is zoomed.
+
+Portable and offscreen Qt tests cover the zoom limits, centering, reset behavior,
+transient state, resizing and independent image zoom. Native macOS rendering and
+interaction for the new slider have not yet been revalidated in Steam Krita.
+
 ## 1.0.0 — 2026-08-31
 
 Initial release of the Yoizuki Reference Catalog Krita extension.
