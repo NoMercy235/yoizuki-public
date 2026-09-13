@@ -44,3 +44,13 @@ The source snapshot is distributed under GPL-3.0-or-later. A private development
 repository does not make distributed source confidential or remove recipients'
 rights under the license. No private repository access is needed to use or
 rebuild the published release.
+
+## Tasklane
+
+For version 0.1.0, the release tag is `tasklane-v0.1.0` and the assets are:
+
+- `Tasklane-0.1.0.zip`
+- `Tasklane-0.1.0-SHA256SUMS.txt`
+
+The Homebrew cask is kept in `Casks/tasklane.rb`. Tasklane is distributed as an
+ad-hoc-signed binary; no source snapshot is included in this public repository.
