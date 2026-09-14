@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.3.1 — 2026-09-15
+
+- Prevented quantity adjustment and completion-warning buttons on task cards
+  from unexpectedly entering the board's keyboard focus loop.
+
 ## 1.3.0 — 2026-09-15
 
 - Added a calendar popover beside Settings for quickly checking dates without
