@@ -1,5 +1,15 @@
 # Changelog
 
+## 1.3.0 — 2026-09-15
+
+- Added a calendar popover beside Settings for quickly checking dates without
+  using a second menu-bar app.
+- Added localized month, year, and weekday navigation that follows the system
+  calendar and configured first weekday.
+- Added quick actions for returning to today and opening Apple Calendar.
+- Kept day selection responsive across each full calendar cell and stabilized
+  the popover position while navigating months and years.
+
 ## 1.2.1 — 2026-09-14
 
 - Added a purple Tasklane application icon for Spotlight, Finder, and the app
