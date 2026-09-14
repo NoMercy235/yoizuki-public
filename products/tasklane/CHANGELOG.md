@@ -1,5 +1,14 @@
 # Changelog
 
+## 1.2.0 — 2026-09-14
+
+- Replaced comma-separated tag entry with native macOS tag pills.
+- Added keyboard-friendly autocomplete for tags used by existing tasks, with
+  case- and diacritic-insensitive filtering.
+- Kept arbitrary new tags fast to create, including comma-separated paste.
+- Made unused tags disappear automatically from suggestions while retaining
+  tags referenced by archived tasks.
+
 ## 1.1.0 — 2026-09-14
 
 - Added optional quantity goals with configurable increments, progress bars,
