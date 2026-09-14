@@ -1,5 +1,22 @@
 # Changelog
 
+## 1.1.0 — 2026-09-14
+
+- Added optional quantity goals with configurable increments, progress bars,
+  card controls, and retained overage.
+- Added ordered task checklists with inline editing, completion tracking, and
+  native macOS list reordering.
+- Added visible warnings for tasks placed in Done before their requirements are
+  satisfied; completion feedback, recurrence advancement, and archiving now
+  wait for the remaining work.
+- Reset quantity progress and checklist state for each recurring occurrence.
+- Improved the progress editor with inline validation for increment values from
+  1 through 100.
+- Expanded the board height presets for more practical Short, Normal, and Tall
+  layouts.
+- Added the installed Tasklane version to Settings.
+- Refined task-card drag behavior, progress controls, and completion feedback.
+
 ## 1.0.0 — 2026-09-14
 
 First stable release of Tasklane.
