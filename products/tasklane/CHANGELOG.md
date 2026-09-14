@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.3.2 — 2026-09-15
+
+- Made the Today, Tomorrow, and In a week due-date presets keyboard focusable
+  and activatable with Space or Return in the task editor.
+
 ## 1.3.1 — 2026-09-15
 
 - Prevented quantity adjustment and completion-warning buttons on task cards
