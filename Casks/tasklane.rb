@@ -3,7 +3,7 @@
 
 cask "tasklane" do
   version "1.2.0"
-  sha256 "704c20ec9fc0fc67ee44871d6402399ca6c2aa337bd9bc686dd500a63517dd19"
+  sha256 "a2af4515418f30ee76c0c16540d3690ae8b5c3aed3d4e536d51dc03b8458dfb7"
 
   url "https://github.com/NoMercy235/yoizuki-public/releases/download/tasklane-v#{version}/Tasklane-#{version}.zip"
   name "Tasklane"
