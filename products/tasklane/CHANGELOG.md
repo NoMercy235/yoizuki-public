@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.2.1 — 2026-09-14
+
+- Added a purple Tasklane application icon for Spotlight, Finder, and the app
+  switcher instead of the previous blank placeholder.
+- Tightened Release builds so embedded build metadata is stripped before
+  packaging.
+
 ## 1.2.0 — 2026-09-14
 
 - Replaced comma-separated tag entry with native macOS tag pills.
