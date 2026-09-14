@@ -47,10 +47,10 @@ rebuild the published release.
 
 ## Tasklane
 
-For version 0.1.0, the release tag is `tasklane-v0.1.0` and the assets are:
+For version 1.2.1, the release tag is `tasklane-v1.2.1` and the assets are:
 
-- `Tasklane-0.1.0.zip`
-- `Tasklane-0.1.0-SHA256SUMS.txt`
+- `Tasklane-1.2.1.zip`
+- `Tasklane-1.2.1-SHA256SUMS.txt`
 
 The Homebrew cask is kept in `Casks/tasklane.rb`. Tasklane is distributed as an
 ad-hoc-signed binary; no source snapshot is included in this public repository.

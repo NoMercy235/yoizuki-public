@@ -6,6 +6,7 @@
   switcher instead of the previous blank placeholder.
 - Tightened Release builds so embedded build metadata is stripped before
   packaging.
+- Bundled and published required third-party license notices.
 
 ## 1.2.0 — 2026-09-14
 
