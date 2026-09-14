@@ -2,8 +2,8 @@
 # frozen_string_literal: true
 
 cask "tasklane" do
-  version "1.1.0"
-  sha256 "b74c8ad0b056dd10661ef7ebef1081710fa65324879d8390dc6381a8e47e4b11"
+  version "1.2.0"
+  sha256 "704c20ec9fc0fc67ee44871d6402399ca6c2aa337bd9bc686dd500a63517dd19"
 
   url "https://github.com/NoMercy235/yoizuki-public/releases/download/tasklane-v#{version}/Tasklane-#{version}.zip"
   name "Tasklane"
@@ -13,6 +13,8 @@ cask "tasklane" do
   depends_on macos: :sonoma
 
   app "Tasklane.app"
+
+  zap trash: "~/Library/LaunchAgents/com.nomercy235.Tasklane.launch-at-login.plist"
 
   caveats <<~EOS
     Tasklane is ad-hoc signed and is not notarized. After installing or upgrading,
