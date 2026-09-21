@@ -2,8 +2,8 @@
 # frozen_string_literal: true
 
 cask "tasklane" do
-  version "2.0.0"
-  sha256 "59ec4c5e0f7b84d8a511a3348b2577905ddff6239fb56071afbce08b1b1bd7c3"
+  version "2.1.0"
+  sha256 "199c15b7ca633eeb5b590f91492a632e6e7ae48d4fb3429473e9cd6f2bea3cde"
 
   url "https://github.com/NoMercy235/yoizuki-public/releases/download/tasklane-v#{version}/Tasklane-#{version}.zip"
   name "Tasklane"
