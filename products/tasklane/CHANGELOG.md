@@ -1,5 +1,11 @@
 # Changelog
 
+## 2.2.0 — 2026-09-21
+
+- Rebuilt board drag and drop with a fluid native preview and responsive reordering within and across columns.
+- Added polished lift and 0.25-second landing animations for both drag-and-drop and quick-move buttons.
+- Improved feedback sound management to avoid first-interaction delays and overlapping playback warnings.
+
 ## 2.1.0 — 2026-09-21
 
 - Added a persistent calendar sidebar with month delimiters and a rolling date
