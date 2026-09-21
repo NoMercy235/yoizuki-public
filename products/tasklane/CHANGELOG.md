@@ -1,5 +1,19 @@
 # Changelog
 
+## 2.0.0 — 2026-09-21
+
+- Added weekday recurrence and made due-date presets follow Tasklane's
+  configurable logical-day boundary.
+- Added progress reminder notifications with delivery-time task counts.
+- Added blocked-task state, task search and filters, configurable archive and
+  retention behavior, and a Save and Continue creation flow.
+- Added distinct task creation and progress feedback sounds.
+- Added a persistent calendar sidebar for faster date navigation.
+- Hardened persistence failure handling, import ordering, recurrence and archive
+  recovery, launch-at-login migration, and settings validation.
+- Improved recurrence, menu-bar count, Quick Add, and calendar performance while
+  preserving existing board interaction behavior.
+
 ## 1.3.2 — 2026-09-15
 
 - Made the Today, Tomorrow, and In a week due-date presets keyboard focusable
