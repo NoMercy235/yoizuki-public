@@ -1,5 +1,14 @@
 # Changelog
 
+## 2.1.0 — 2026-09-21
+
+- Added a persistent calendar sidebar with month delimiters and a rolling date
+  rail for faster navigation.
+- Added per-day completion counts to the sidebar, using Tasklane's configurable
+  logical-day boundary and respecting archive retention.
+- Made newly created tasks default to Tomorrow in Quick Add, advanced creation,
+  and Save and Continue, while preserving recurrence and existing-task behavior.
+
 ## 2.0.0 — 2026-09-21
 
 - Added weekday recurrence and made due-date presets follow Tasklane's
