@@ -1,5 +1,10 @@
 # Changelog
 
+## 2.3.0 — 2026-09-22
+
+- Added a native tag combo box with recent suggestions, filtering, free-form creation, and removable selected-tag chips.
+- Improved checklist keyboard navigation so Add item is reachable by Tab and newly added rows open focused in edit mode.
+
 ## 2.2.0 — 2026-09-21
 
 - Rebuilt board drag and drop with a fluid native preview and responsive reordering within and across columns.
