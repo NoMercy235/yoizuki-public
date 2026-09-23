@@ -1,5 +1,10 @@
 # Changelog
 
+## 2.4.0 — 2026-09-23
+
+- Added a schedules view for managing recurrence rules.
+- Prevented duplicate development notifications.
+
 ## 2.3.0 — 2026-09-22
 
 - Added a native tag combo box with recent suggestions, filtering, free-form creation, and removable selected-tag chips.
