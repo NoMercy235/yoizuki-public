@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.5.0 — 2026-09-28
+
+- Added a quick action to clear blockers from task cards and details.
+
 ## 2.4.0 — 2026-09-23
 
 - Added a schedules view for managing recurrence rules.
