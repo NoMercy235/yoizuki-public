@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.6.0 — 2026-09-30
+
+- Added configurable snooze times that pause progress reminders overnight and stay aligned with the evening and morning summaries.
+
 ## 2.5.0 — 2026-09-28
 
 - Added a quick action to clear blockers from task cards and details.
