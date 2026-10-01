@@ -1,5 +1,19 @@
 # Changelog
 
+## 1.2.0 — 2026-10-01
+
+- Prevented reference boards from taking keyboard focus without an intentional
+  canvas click when they are created, revealed or header-dragged. This addresses
+  missed Space-to-pan input and accidental drawing after board interactions.
+- Intentional clicks on a board canvas still focus that board, so board-local
+  shortcuts retain their existing behavior.
+- The saved-data schema is unchanged, and existing `.kra` references remain
+  compatible.
+
+Portable and offscreen Qt regression tests cover the focus behavior. Native
+macOS confirmation in Steam Krita remains pending until later in this release
+workflow.
+
 ## 1.1.0 — 2026-09-01
 
 - Added a compact vertical slider beside each board canvas for centered canvas
