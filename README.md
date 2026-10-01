@@ -10,7 +10,7 @@ Development repositories and their Git histories are managed separately.
   [Download version 1.2.0](https://github.com/NoMercy235/yoizuki-public/releases/tag/reference-catalog-v1.2.0).
 - **[Tasklane](products/tasklane/README.md)** — a focused macOS menu-bar Kanban
   board for daily and weekly tasks.
-  [Download version 2.6.0](https://github.com/NoMercy235/yoizuki-public/releases/tag/tasklane-v2.6.0).
+  [Download version 2.7.0](https://github.com/NoMercy235/yoizuki-public/releases/tag/tasklane-v2.7.0).
 
 ## Downloads and support
 

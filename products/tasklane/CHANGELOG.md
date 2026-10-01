@@ -1,5 +1,11 @@
 # Changelog
 
+## 2.7.0 — 2026-10-01
+
+- Added a persistent saved-tag catalog so tags remain available after their last active task is completed or archived.
+- Added tag catalog controls that remove saved suggestions without changing tags already assigned to tasks.
+- Improved the tag picker with responsive popover sizing, hover feedback, and full-row click targets.
+
 ## 2.6.0 — 2026-09-30
 
 - Added configurable snooze times that pause progress reminders overnight and stay aligned with the evening and morning summaries.
