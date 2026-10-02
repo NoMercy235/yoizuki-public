@@ -1,5 +1,11 @@
 # Changelog
 
+## 2.7.1 — 2026-10-02
+
+- Made task feedback immediate and non-blocking with prepared asynchronous audio playback.
+- Added distinct, smoother sounds for starting tasks and advancing completion progress, with fire-and-forget overlap for rapid actions.
+- Fixed drag previews jumping away from the pointer after scrolling or repositioning the board.
+
 ## 2.7.0 — 2026-10-01
 
 - Added a persistent saved-tag catalog so tags remain available after their last active task is completed or archived.
