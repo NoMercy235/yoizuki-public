@@ -1,5 +1,12 @@
 # Changelog
 
+## 2.7.2 — 2026-10-02
+
+- Moved feedback sound setup and playback off the UI thread while preserving overlapping sounds.
+- Reduced progress-click work by skipping unnecessary maintenance and menu-bar count refreshes.
+- Cached Board card and search data, calendar history, and date rails to reduce repeated processing.
+- Reduced unnecessary persistence writes and added performance timing diagnostics.
+
 ## 2.7.1 — 2026-10-02
 
 - Made task feedback immediate and non-blocking with prepared asynchronous audio playback.
