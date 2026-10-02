@@ -1,5 +1,21 @@
 # Changelog
 
+## 1.3.0 — 2026-10-02
+
+- Added **Extract Reference Colors…** beside the eyedropper in the main board
+  toolbar, with a Scripts → Images entry and customizable shortcut.
+- Select a reference to preview 2–100 ordered colors, starting at 10, using the
+  original source pixels independently of transforms, overlap and board opacity.
+- Save the preview as a `.gpl` palette for manual import through Krita's Palette
+  docker, or create a separate sRGB swatch layer while keeping the preview open.
+- The saved-data schema is unchanged, and existing `.kra` references remain
+  compatible.
+
+Native API probes passed in Steam Krita 5.3.4 for generated palette parsing,
+sRGB layer output on U8/U16 and linear-profile canvases, single-step Undo/Redo,
+and disposable `.kra` save/reopen. Manual palette-import clicks, full native
+preview interaction and displayed color appearance remain acceptance checks.
+
 ## 1.2.0 — 2026-10-01
 
 - Prevented reference boards from taking keyboard focus without an intentional

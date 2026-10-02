@@ -34,11 +34,11 @@ Clearly identify the product installer and the separately attached source ZIP.
 
 ## Yoizuki Reference Catalog
 
-For version 1.2.0, the release tag is `reference-catalog-v1.2.0` and the assets are:
+For version 1.3.0, the release tag is `reference-catalog-v1.3.0` and the assets are:
 
-- `krita-reference-mod-1.2.0.zip`
-- `krita-reference-mod-1.2.0-source.zip`
-- `krita-reference-mod-1.2.0-SHA256SUMS.txt`
+- `krita-reference-mod-1.3.0.zip`
+- `krita-reference-mod-1.3.0-source.zip`
+- `krita-reference-mod-1.3.0-SHA256SUMS.txt`
 
 The source snapshot is distributed under GPL-3.0-or-later. A private development
 repository does not make distributed source confidential or remove recipients'

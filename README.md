@@ -7,7 +7,7 @@ Development repositories and their Git histories are managed separately.
 
 - **[Yoizuki Reference Catalog](products/reference-catalog/README.md)** — floating
   reference boards saved inside Krita documents.
-  [Download version 1.2.0](https://github.com/NoMercy235/yoizuki-public/releases/tag/reference-catalog-v1.2.0).
+  [Download version 1.3.0](https://github.com/NoMercy235/yoizuki-public/releases/tag/reference-catalog-v1.3.0).
 - **[Tasklane](products/tasklane/README.md)** — a focused macOS menu-bar Kanban
   board for daily and weekly tasks.
   [Download version 2.7.2](https://github.com/NoMercy235/yoizuki-public/releases/tag/tasklane-v2.7.2).
