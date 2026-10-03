@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.7.3 — 2026-10-03
+
+- Prevented task reminders from appearing while the Mac is locked or asleep, and skipped missed reminders after returning.
+
 ## 2.7.2 — 2026-10-02
 
 - Moved feedback sound setup and playback off the UI thread while preserving overlapping sounds.
