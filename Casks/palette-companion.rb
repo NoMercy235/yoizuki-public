@@ -10,7 +10,7 @@ cask "palette-companion" do
   desc "Extract color palettes from reference images for Clip Studio Paint and Krita"
   homepage "https://github.com/NoMercy235/yoizuki-public/tree/main/products/palette-companion"
 
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
 
   app "Palette Companion.app"
 
