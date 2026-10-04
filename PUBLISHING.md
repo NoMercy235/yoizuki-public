@@ -54,3 +54,11 @@ For version 2.7.4, the release tag is `tasklane-v2.7.4` and the assets are:
 
 The Homebrew cask is kept in `Casks/tasklane.rb`. Tasklane is distributed as an
 ad-hoc-signed binary; no source snapshot is included in this public repository.
+
+## Palette Companion
+
+- Tag: `palette-companion-v1.0.0`
+- Product documentation: `products/palette-companion/`
+- Homebrew cask: `Casks/palette-companion.rb`
+- Required assets: `PaletteCompanion-1.0.0-mac.zip`, `PaletteCompanion-Setup-1.0.0.exe`, and `PaletteCompanion-1.0.0-SHA256SUMS.txt`
+- Publish only after every native validation check passed or has an owner-accepted, publicly disclosed limitation, and the draft release review record matches all three assets.

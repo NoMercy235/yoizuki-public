@@ -11,6 +11,7 @@ Development repositories and their Git histories are managed separately.
 - **[Tasklane](products/tasklane/README.md)** — a focused macOS menu-bar Kanban
   board for daily and weekly tasks.
   [Download version 2.7.4](https://github.com/NoMercy235/yoizuki-public/releases/tag/tasklane-v2.7.4).
+- [Palette Companion](products/palette-companion/README.md) — Extract compact color palettes from reference images for Clip Studio Paint and Krita.
 
 ## Downloads and support
 
