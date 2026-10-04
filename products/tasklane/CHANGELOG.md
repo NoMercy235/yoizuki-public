@@ -1,5 +1,11 @@
 # Changelog
 
+## 2.8.0 — 2026-10-04
+
+- Added up to five quantity goals per task, with All goals (AND) or Any goal (OR) completion while keeping checklists required.
+- Redesigned quantity editing with expandable rows, clearer fields, and keyboard navigation.
+- Displayed every quantity goal on task cards and details, with goal-specific progress adjustments and preserved rules for recurring tasks and backups.
+
 ## 2.7.4 — 2026-10-04
 
 - Kept the current month visible while scrolling the calendar sidebar.
