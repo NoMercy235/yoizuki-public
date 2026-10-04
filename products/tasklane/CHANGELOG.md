@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.7.4 — 2026-10-04
+
+- Kept the current month visible while scrolling the calendar sidebar.
+
 ## 2.7.3 — 2026-10-03
 
 - Prevented task reminders from appearing while the Mac is locked or asleep, and skipped missed reminders after returning.
