@@ -1,5 +1,21 @@
 # Changelog
 
+## 1.3.2 — 2026-10-04
+
+- Replaced the transparent native resize mark with an opaque 32×32 corner
+  control inside the board's right-side rail, with a clear diagonal resize
+  glyph and hover/pressed feedback.
+- Kept Qt's existing `QSizeGrip` resizing behavior while making the full visible
+  button the hit target, including when board background opacity is 0%.
+- Added regression coverage for opaque rendering, corner hit ownership and an
+  actual press-drag resize gesture.
+- The saved-data schema is unchanged, and existing `.kra` references remain
+  compatible.
+
+Portable and offscreen Qt tests cover the contained layout, opaque rendering,
+hit target and resize gesture. The native appearance was confirmed in Steam
+Krita on macOS.
+
 ## 1.3.1 — 2026-10-04
 
 - Enlarged the board's bottom-right resize grip to a consistent 28×28 target,
