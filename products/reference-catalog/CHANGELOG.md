@@ -1,5 +1,17 @@
 # Changelog
 
+## 1.3.1 — 2026-10-04
+
+- Enlarged the board's bottom-right resize grip to a consistent 28×28 target,
+  making it less likely that a resize attempt lands on the board canvas instead.
+- Added an accessible name and regression coverage for the grip's size,
+  bottom-right alignment and mouse hit area.
+- The saved-data schema is unchanged, and existing `.kra` references remain
+  compatible.
+
+Portable and offscreen Qt tests cover the enlarged hit target and alignment.
+Native macOS interaction in Steam Krita remains an acceptance check.
+
 ## 1.3.0 — 2026-10-02
 
 - Added **Extract Reference Colors…** beside the eyedropper in the main board
