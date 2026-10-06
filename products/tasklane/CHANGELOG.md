@@ -1,5 +1,11 @@
 # Changelog
 
+## 2.10.0 — 2026-10-06
+
+- Show the first three checklist steps directly on task cards, with an animated View all control for longer checklists.
+- Automatically collapse expanded checklists after the pointer leaves the task card.
+- Keep checklist controls out of board keyboard navigation to avoid persistent focus highlights.
+
 ## 2.9.0 — 2026-10-06
 
 - Added compact inline increase and decrease controls for every quantity goal, eliminating repeated submenu navigation.
