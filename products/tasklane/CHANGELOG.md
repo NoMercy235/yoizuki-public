@@ -1,5 +1,13 @@
 # Changelog
 
+## 2.9.0 — 2026-10-06
+
+- Added compact inline increase and decrease controls for every quantity goal, eliminating repeated submenu navigation.
+- Reorganized task cards with aligned priority and complexity badges, clearer scheduling metadata, and a more compact layout.
+- Added animated circular progress indicators with detailed hover tooltips and truncated long goal labels with full-label tooltips.
+- Replaced quantity completion headings with compact OR / AND badges and explorer-style connectors between related goals.
+- Added a distinct celebratory sound when a quantity goal or checklist is completed, while retaining the regular chime for partial progress.
+
 ## 2.8.0 — 2026-10-04
 
 - Added up to five quantity goals per task, with All goals (AND) or Any goal (OR) completion while keeping checklists required.
