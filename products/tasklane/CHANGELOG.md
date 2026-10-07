@@ -1,5 +1,12 @@
 # Changelog
 
+## 2.11.0 — 2026-10-07
+
+- Fixed board drag and drop becoming unresponsive after repeatedly moving tasks.
+- Prevented a task-card rendering crash during drag and drop.
+- Added insertion markers to show where reordered tasks will land.
+- Expanded dragging to the full task header, including priority and complexity badges, while keeping completion controls independent.
+
 ## 2.10.0 — 2026-10-06
 
 - Show the first three checklist steps directly on task cards, with an animated View all control for longer checklists.

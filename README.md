@@ -10,7 +10,7 @@ Development repositories and their Git histories are managed separately.
   [Download version 1.3.2](https://github.com/NoMercy235/yoizuki-public/releases/tag/reference-catalog-v1.3.2).
 - **[Tasklane](products/tasklane/README.md)** — a focused macOS menu-bar Kanban
   board for daily and weekly tasks.
-  [Download version 2.10.0](https://github.com/NoMercy235/yoizuki-public/releases/tag/tasklane-v2.10.0).
+  [Download version 2.11.0](https://github.com/NoMercy235/yoizuki-public/releases/tag/tasklane-v2.11.0).
 - [Palette Companion](products/palette-companion/README.md) — Extract compact color palettes from reference images for Clip Studio Paint and Krita.
 
 ## Downloads and support
