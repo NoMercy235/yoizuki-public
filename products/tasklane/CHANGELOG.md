@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.11.1 — 2026-10-09
+
+- Show current/target counts beside Quantity progress rings, matching Checklist progress.
+
 ## 2.11.0 — 2026-10-07
 
 - Fixed board drag and drop becoming unresponsive after repeatedly moving tasks.
