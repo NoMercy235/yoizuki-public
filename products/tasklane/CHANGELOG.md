@@ -188,4 +188,3 @@ Initial public binary release of Tasklane.
 - Added Today, Tomorrow, and In a week due-date presets during task creation.
 - Added an audible completion cue when a task enters Done.
 - Added local persistence and migration support for existing task data.
-

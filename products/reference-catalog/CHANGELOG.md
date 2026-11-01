@@ -70,4 +70,3 @@ Initial release of the Yoizuki Reference Catalog Krita extension.
   checksum file.
 - GPL-3.0-or-later license included with the installed plugin; plugin version
   included in diagnostic reports.
-
