@@ -65,8 +65,8 @@ ad-hoc-signed binary; no source snapshot is included in this public repository.
 
 ## Museboard
 
-- Tag: `museboard-v0.1.0`
+- Tag: `museboard-v1.0.0`
 - Product documentation: `products/museboard/`
 - Homebrew cask: `Casks/museboard.rb`
-- Required assets: `Museboard-0.1.0-mac.zip`, `Museboard-Setup-0.1.0.exe`, and `Museboard-0.1.0-SHA256SUMS.txt`
+- Required assets: `Museboard-1.0.0-mac.zip`, `Museboard-Setup-1.0.0.exe`, and `Museboard-1.0.0-SHA256SUMS.txt`
 - Publish only after each native validation check passes or has an explicitly owner-accepted public limitation, and the draft review record matches all three assets.
