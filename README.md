@@ -1,7 +1,6 @@
 # Yoizuki Public
 
 Public downloads, documentation, licenses, and release notes for Yoizuki projects.
-Development repositories and their Git histories are managed separately.
 
 ## Projects
 
@@ -33,4 +32,4 @@ Yoizuki Reference Catalog is licensed under
 [GPL-3.0-or-later](products/reference-catalog/LICENSE.md); its release assets
 include source code. Imported reference images retain their own rights.
 
-See [PUBLISHING.md](PUBLISHING.md) for the release process and project naming.
+See [PUBLISHING.md](PUBLISHING.md) for public release asset naming and source-license information.

@@ -189,5 +189,3 @@ Initial public binary release of Tasklane.
 - Added an audible completion cue when a task enters Done.
 - Added local persistence and migration support for existing task data.
 
-The release is verified on macOS as a universal Apple silicon and Intel build.
-Cloud synchronization is not included.

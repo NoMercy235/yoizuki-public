@@ -7,26 +7,17 @@
   glyph and hover/pressed feedback.
 - Kept Qt's existing `QSizeGrip` resizing behavior while making the full visible
   button the hit target, including when board background opacity is 0%.
-- Added regression coverage for opaque rendering, corner hit ownership and an
-  actual press-drag resize gesture.
 - The saved-data schema is unchanged, and existing `.kra` references remain
   compatible.
-
-Portable and offscreen Qt tests cover the contained layout, opaque rendering,
-hit target and resize gesture. The native appearance was confirmed in Steam
-Krita on macOS.
 
 ## 1.3.1 — 2026-10-04
 
 - Enlarged the board's bottom-right resize grip to a consistent 28×28 target,
   making it less likely that a resize attempt lands on the board canvas instead.
-- Added an accessible name and regression coverage for the grip's size,
-  bottom-right alignment and mouse hit area.
+- Added an accessible name to the resize grip.
 - The saved-data schema is unchanged, and existing `.kra` references remain
   compatible.
 
-Portable and offscreen Qt tests cover the enlarged hit target and alignment.
-Native macOS interaction in Steam Krita remains an acceptance check.
 
 ## 1.3.0 — 2026-10-02
 
@@ -39,10 +30,6 @@ Native macOS interaction in Steam Krita remains an acceptance check.
 - The saved-data schema is unchanged, and existing `.kra` references remain
   compatible.
 
-Native API probes passed in Steam Krita 5.3.4 for generated palette parsing,
-sRGB layer output on U8/U16 and linear-profile canvases, single-step Undo/Redo,
-and disposable `.kra` save/reopen. Manual palette-import clicks, full native
-preview interaction and displayed color appearance remain acceptance checks.
 
 ## 1.2.0 — 2026-10-01
 
@@ -54,9 +41,6 @@ preview interaction and displayed color appearance remain acceptance checks.
 - The saved-data schema is unchanged, and existing `.kra` references remain
   compatible.
 
-Portable and offscreen Qt regression tests cover the focus behavior. Native
-macOS confirmation in Steam Krita remains pending until later in this release
-workflow.
 
 ## 1.1.0 — 2026-09-01
 
@@ -70,9 +54,6 @@ workflow.
 - Selection handles and their hit areas retain a consistent screen size while the
   canvas is zoomed.
 
-Portable and offscreen Qt tests cover the zoom limits, centering, reset behavior,
-transient state, resizing and independent image zoom. Native macOS rendering and
-interaction for the new slider have not yet been revalidated in Steam Krita.
 
 ## 1.0.0 — 2026-08-31
 
@@ -85,12 +66,8 @@ Initial release of the Yoizuki Reference Catalog Krita extension.
   and per-document reference undo/redo.
 - Grouped Scripts menu actions, customizable shortcuts, toolbar overflow, and
   bounded drag-and-drop diagnostics.
-- Versioned installation and source archives, plus a SHA-256 checksum file, are produced by
-  the release build; the unversioned archive remains a local compatibility alias.
+- Published installation and source archives are available with a SHA-256
+  checksum file.
 - GPL-3.0-or-later license included with the installed plugin; plugin version
   included in diagnostic reports.
 
-Tested by the user on macOS with Steam Krita 5.3.3, including Brave/Pinterest
-drops. Windows and Linux have not been tested natively. See the README for
-compatibility, installation and known limits; not all native acceptance checks
-have been completed.
