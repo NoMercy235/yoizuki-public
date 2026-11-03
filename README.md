@@ -24,6 +24,11 @@ For a bug report, [open an issue](https://github.com/NoMercy235/yoizuki-public/i
 with the product name, version, operating system, and steps to reproduce it.
 Do not include credentials, private artwork, or personal data.
 
+## Support development
+
+If you find these projects useful, you can support my work on
+[Buy Me a Coffee](https://buymeacoffee.com/nomercy235).
+
 ## Licenses
 
 Each product has its own license and, where applicable, third-party notices.
