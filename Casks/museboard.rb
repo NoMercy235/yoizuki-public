@@ -2,8 +2,8 @@
 # frozen_string_literal: true
 
 cask "museboard" do
-  version "1.0.0"
-  sha256 "b1e4e17baeb0bf86e87351088036277d46300b79f44ea39c3db9cfb7ec82c098"
+  version "1.4.0"
+  sha256 "6b6a75007312d895c21f7c0e51bec618245441680d8fbd2e3cf47def187378b3"
 
   url "https://github.com/NoMercy235/yoizuki-public/releases/download/museboard-v#{version}/Museboard-#{version}-mac.zip"
   name "Museboard"

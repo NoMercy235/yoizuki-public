@@ -1,5 +1,17 @@
 # Changelog
 
+## 1.4.0
+
+- Open up to five independent floating boards, create empty temporary boards, and restore saved and temporary board window geometry.
+- Add gallery images to boards with placement badges and repeated additions, and adjust board zoom with a percentage slider.
+- Browse linked images as text links with hover and focus previews, and navigate back through image details more reliably.
+- Copy multiple images or drawings with their references, copy drawings without references, and continue batch operations past unavailable images.
+- Drag and drop multiple images between catalogs, watched folders, and the managed library, transferring catalog membership or safely moving files.
+- Add, tag, change the type of, or delete multiple selected images; explicitly save image imports with editable titles, types, and rotation.
+- Open images on temporary boards and save Instagram compositions to the library.
+- Remove images from catalogs with simpler catalog controls.
+- Generate tags from image details, with improved tagging context, startup feedback, grid refresh, toolbar actions, and icons.
+
 ## 1.0.0
 
 - Search Brave Images and Google Images through SerpApi with your own provider keys, and save selected images when you have the applicable rights.
