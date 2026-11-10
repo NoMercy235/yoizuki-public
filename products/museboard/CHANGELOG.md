@@ -1,5 +1,15 @@
 # Changelog
 
+## 1.6.0
+
+- Pair a browser on a trusted LAN to browse and search the library, view saved boards, copy images, upload references or drawings, and arrange images on temporary boards.
+- Link a second Museboard desktop app to the owner's LAN library for shared images, organization, and saved-board edits. Shared changes are stored on the host; temporary boards remain on the device where they are created.
+- Edit tags on individual images or selections with a searchable picker and explicit tag creation. Library thumbnails now show drawing/reference link badges.
+- Save library views and thumbnail sizes, restore browsing position, and move between images across gallery pages. Skip individual images while reviewing an import batch.
+- Revisit video sources using titled history entries and remove unwanted entries.
+- Honor folder and catalog destinations when importing dropped images, and remember the last selected import type.
+- Use clearer red X icons for removal controls.
+
 ## 1.4.0
 
 - Open up to five independent floating boards, create empty temporary boards, and restore saved and temporary board window geometry.

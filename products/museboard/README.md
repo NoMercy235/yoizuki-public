@@ -9,3 +9,7 @@
 - Export boards as PNG and run timed practice sessions.
 - Capture video frames and prepare PNG exports from supported images or saved flattened Krita canvases.
 - Use explicit, on-demand image tagging with a user-configured local or private LAN vision server.
+- Enable the LAN companion to browse the library, upload images, and use temporary boards from a paired browser.
+- Connect another Museboard desktop app to the owner's library on a trusted local network.
+
+The library owner stores shared images, metadata, and saved boards. Temporary boards stay on the device where they are created. The host must remain available; there is no offline synchronization. LAN companion traffic uses unencrypted HTTP, so use a trusted private network and do not forward its port through your router.
