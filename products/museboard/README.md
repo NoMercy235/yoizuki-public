@@ -1,5 +1,7 @@
 # Museboard
 
+Public macOS and Windows downloads have been withdrawn. See the [changelog](CHANGELOG.md), [privacy policy](PRIVACY.md), and [third-party notices](THIRD-PARTY-NOTICES.md).
+
 - Import PNG, JPEG, and WebP images or index local folders.
 - Organize references in catalogs and arrange them on boards.
 - Open up to five floating boards, including temporary boards, and add images from the gallery.

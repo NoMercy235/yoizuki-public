@@ -41,7 +41,5 @@ ad-hoc-signed binary; no source snapshot is included in this public repository.
 
 ## Museboard
 
-- Tag: `museboard-v1.6.0`
-- Product documentation: `products/museboard/`
-- Homebrew cask: `Casks/museboard.rb`
-- Required assets: `Museboard-1.6.0-mac.zip`, `Museboard-Setup-1.6.0.exe`, and `Museboard-1.6.0-SHA256SUMS.txt`
+This repository hosts [Museboard documentation](products/museboard/README.md).
+Public macOS and Windows downloads have been withdrawn.
