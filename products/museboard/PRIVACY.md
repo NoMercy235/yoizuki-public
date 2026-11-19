@@ -1,6 +1,6 @@
 # Museboard Privacy Policy
 
-Last updated: November 10, 2026
+Last updated: November 19, 2026
 
 Museboard is provided by Alexandru Florian Barascu under the Yoizuki name. For privacy questions, contact [alex@yoizuki.dev](mailto:alex@yoizuki.dev).
 
@@ -21,6 +21,12 @@ Museboard also stores recent web-search queries, search options and result metad
 The app can remember up to 20 successfully opened remote video links and their titles. Entries can be removed from the video history. Library viewing preferences and saved views can persist between launches. macOS versions can retain file-access permissions for folders you select.
 
 Search API keys, AI authentication tokens, and native linked-library credentials are stored using operating-system-backed encryption. Your library database, media, previews, and exported backups are not encrypted by Museboard. Protect them with the access controls and encryption available on your devices and storage.
+
+## On-device visual search
+
+Museboard 2.0 includes a model that lets you find images by what they show. When you index a library, Museboard reads the images and stores numerical descriptions of them in the library database. It compares those descriptions with your search text on the computer hosting the library. Visual search works offline with a local library, and the images, search text, and index stay on your computer.
+
+If you search a linked library, Museboard sends the query to the paired host over your local network and runs the search there. You can remove the visual search index in **Settings › Local AI › Clear index**. Museboard excludes the index from exported library backups.
 
 ## Optional image search and remote images
 
@@ -44,7 +50,7 @@ You can use local video files instead of online video. Local playback and frame 
 
 AI tagging runs only when you start it after configuring a compatible server on this computer or a trusted private network. Museboard sends the selected model identifier, a resized image prepared without embedded file metadata, suggested tags, and limited organizational context. This context can include catalog names and watched-folder names or aliases. It does not include your full folder paths, image Notes, or your entire image library. Suggested tags can include tag names used elsewhere in your library.
 
-The server returns tags and, when enabled, a display title. Valid results are automatically saved to your library as processing completes. Museboard does not bundle an AI model, use a developer-operated AI service, or provide a public-cloud fallback.
+The server returns tags and, when enabled, a display title. Valid results are automatically saved to your library as processing completes. AI tagging uses only the model and server you configure.
 
 The server operator controls logging, retention and any onward processing. Use only servers you trust; a private address alone cannot guarantee that a custom server does not forward data elsewhere. HTTP sends images and authentication tokens without transport encryption. A configured HTTPS server with a valid certificate can protect that connection. Cancelling a job stops further work but cannot recall data already received by the server.
 
